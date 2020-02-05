@@ -63,10 +63,10 @@ public class Gift {
 		scan.close();
 	}
 	public void printAllGifts() {
+		System.out.println("........CANDIES......");
 		if( candies.size() == 0) {
 			System.out.println("No candies");
 		} else {
-			System.out.println("........CANDIES......");
 			Iterator<Candies> it0 = candies.iterator();
 			while( it0.hasNext() ) {
 				Candies temp = it0.next();
